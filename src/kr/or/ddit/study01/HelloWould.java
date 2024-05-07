@@ -2,8 +2,6 @@ package kr.or.ddit.study01;
 
 import java.util.Scanner;
 
-import javax.print.DocFlavor.INPUT_STREAM;
-
 public class HelloWould {
 	public static void main(String[] args) {
 		System.out.println("이름을 입력하세요.");
@@ -15,6 +13,7 @@ public class HelloWould {
 		int age = scan2.nextInt();
 		
 		System.out.println("교육생님의 이름은 "+name+"이며, 나이는 "+age+"살 입니다.");
+		
 		
 	}
 }
